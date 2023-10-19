@@ -118,9 +118,30 @@ table,th,td {
   {	
   	flex: 100%;
 
-  }	
+  }
+	 .car{
+  	flex: 50%;
+  } 
+
   }
 
-  .car{
-  	flex: 50%;
+@media(max-width: 400px){
+  #flex_container{
+  	flex-wrap: wrap;
   }
+  #left_side{
+  	flex: 100%;
+
+  }
+  #right_side
+  {	
+  	flex: 100%;
+
+  }
+	 .car{
+  	flex: 100%;
+  } 
+
+  }
+
+ 
