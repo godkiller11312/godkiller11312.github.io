@@ -125,7 +125,7 @@ table,th,td {
 
   }
 
-@media(max-width: 400px){
+@media(max-width: 200px){
   #flex_container{
   	flex-wrap: wrap;
   }
